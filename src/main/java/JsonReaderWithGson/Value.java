@@ -4,13 +4,24 @@ import java.util.List;
 
 public class Value {
 
-    List<MapVal> value;
+    private Long intVal;
 
-    public List<MapVal> getValue() {
-        return value;
+    public Long getIntVal() {
+        return intVal;
     }
 
-    public void setValue(List<MapVal> value) {
-        this.value = value;
+    public void setIntVal(Long intVal) {
+        this.intVal = intVal;
     }
+
+    //
+//    List<MapVal> value;
+//
+//    public List<MapVal> getValue() {
+//        return value;
+//    }
+//
+//    public void setValue(List<MapVal> value) {
+//        this.value = value;
+//    }
 }

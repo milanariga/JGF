@@ -5,7 +5,7 @@ import java.util.List;
 public class Point {
 
     private String originDataSourceId;
-    private List<Value> values;
+    private List<Value> value;
 
     public String getOriginDataSourceId() {
         return originDataSourceId;
@@ -15,11 +15,11 @@ public class Point {
         this.originDataSourceId = originDataSourceId;
     }
 
-    public List<Value> getValues() {
-        return values;
+    public List<Value> getValue() {
+        return value;
     }
 
-    public void setValues(List<Value> values) {
-        this.values = values;
+    public void setValues(List<Value> value) {
+        this.value = value;
     }
 }
