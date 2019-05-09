@@ -1,9 +1,11 @@
 package JsonReaderWithGson;
 
+import java.util.List;
+
 public class Point {
 
     private String originDataSourceId;
-    private Value intVal;
+    private List<Value> values;
 
     public String getOriginDataSourceId() {
         return originDataSourceId;
@@ -13,11 +15,11 @@ public class Point {
         this.originDataSourceId = originDataSourceId;
     }
 
-    public Value getIntVal() {
-        return intVal;
+    public List<Value> getValues() {
+        return values;
     }
 
-    public void setIntVal(Value intVal) {
-        this.intVal = intVal;
+    public void setValues(List<Value> values) {
+        this.values = values;
     }
 }

@@ -30,8 +30,6 @@ public class JsonFileToJsonObject {
             JSONObject valueObj = (JSONObject) value.get(0);
             Long intVal = (Long) valueObj.get("intVal");
             System.out.println(intVal);
-
         }
-
-        }
+    }
 }

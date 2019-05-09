@@ -1,13 +1,16 @@
 package JsonReaderWithGson;
 
-public class Value {
-    Long intVal;
+import java.util.List;
 
-    public Long getIntVal() {
-        return intVal;
+public class Value {
+
+    List<MapVal> value;
+
+    public List<MapVal> getValue() {
+        return value;
     }
 
-    public void setIntVal(Long intVal) {
-        this.intVal = intVal;
+    public void setValue(List<MapVal> value) {
+        this.value = value;
     }
 }

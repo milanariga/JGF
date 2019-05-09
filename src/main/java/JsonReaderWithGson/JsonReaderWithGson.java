@@ -25,7 +25,7 @@ public class JsonReaderWithGson {
         }
 
         Gson gson = new Gson();
-        StepsPerDay steps = gson.fromJson(builder.toString(), StepsPerDay.class);
+        StepCount steps = gson.fromJson(builder.toString(), StepCount.class);
         System.out.println(steps.toString());
     }
 
